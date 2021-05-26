@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>İhsan Coder | social-media-dashboard-with-theme-switcher-master | Frontend Mentor </title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-inner">
+        <div class="info">
+          <div class="name">
+            Social Media Dashboard
+          </div>
+          <div class="stat">
+            Total Followers: 23,004
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="switch">
+          <div class="label">Dark Mode</div>
+          <div class="toggle">
+            <label for="themeSwitch"></label>
+            <input type="checkbox" name="swich-theme" id="themeSwitch">
+            <div class="toggle-bg"></div>
+            <div class="toggle-thumb">
+              <i class="far fa-sun"></i>
+              <i class="far fa-moon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main class="main">
+      <div class="follower">
+        <div class="box facebook">
+          <div class="username">
+            <i class="fab fa-facebook-square"></i>
+            <span>@nathanf</span>
+          </div>
+          <div class="stats">
+            <div class="num">1987</div>
+            <div class="tag">Followers</div>
+          </div>
+          <div class="today">
+            <span class="plus">12 Today</span>
+          </div>
+        </div>
+        <div class="box twitter">
+          <div class="username">
+            <i class="fab fa-twitter"></i>
+            <span>@nathanf</span>
+          </div>
+          <div class="stats">
+            <div class="num">1044</div>
+            <div class="tag">Followers</div>
+          </div>
+          <div class="today">
+            <span class="plus">99 Today</span>
+          </div>
+        </div>
+        <div class="box instagram">
+          <div class="username">
+            <i class="fab fa-instagram"></i>
+            <span>@realnathanf</span>
+          </div>
+          <div class="stats">
+            <div class="num">11k</div>
+            <div class="tag">Followers</div>
+          </div>
+          <div class="today">
+            <span class="plus">1099 Today</span>
+          </div>
+        </div>
+        <div class="box youtube">
+          <div class="username">
+            <i class="fab fa-youtube"></i>
+            <span>Nathan F.</span>
+          </div>
+          <div class="stats">
+            <div class="num">8239</div>
+            <div class="tag">Subscribers</div>
+          </div>
+          <div class="today">
+            <span class="minus">144 Today</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="overview">
+        <h1 class="o-title">Overview - Today</h1>
+        <div class="view f-view">
+          <div class=view-top>
+            <span class="sm-txt">Page Views</span>
+            <i class="fab fa-facebook-square"></i>
+          </div>
+          <div class=view-bottom>
+            <span class="big-txt">87</span>
+            <span class="plus sm-txt">303%</span>
+          </div>
+        </div>
+        <div class="view f-likes">
+          <div class=view-top>
+            <span>Likes</span>
+            <i class="fab fa-facebook-square"></i>
+          </div>
+          <div class=view-bottom>
+            <span>52</span>
+            <span class="minus">-2%</span>
+          </div>
+        </div>
+        <div class="view i-likes">
+          <div class=view-top>
+            <span>Likes</span>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class=view-bottom>
+            <span>5462</span>
+            <span class="plus">2257%</span>
+          </div>
+        </div>
+        <div class="view i-view">
+          <div class=view-top>
+            <span>Profile Views</span>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class=view-bottom>
+            <span>52k</span>
+            <span class="plus">1375%</span>
+          </div>
+        </div>
+        <div class="view t-retweet">
+          <div class=view-top>
+            <span>Retweets</span>
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class=view-bottom>
+            <span>117</span>
+            <span class="plus">303%</span>
+          </div>
+        </div>
+        <div class="view t-likes">
+          <div class=view-top>
+            <span>Likes</span>
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class=view-bottom>
+            <span>507</span>
+            <span class="plus">553%</span>
+          </div>
+        </div>
+        <div class="view y-likes">
+          <div class=view-top>
+            <span>Likes</span>
+            <i class="fab fa-youtube"></i>
+          </div>
+          <div class=view-bottom>
+            <span>107</span>
+            <span class="minus">-19%</span>
+          </div>
+        </div>
+        <div class="view y-view">
+          <div class=view-top>
+            <span>Total Views</span>
+            <i class="fab fa-youtube"></i>
+          </div>
+          <div class=view-bottom>
+            <span>1407</span>
+            <span class="minus">-12%</span>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://twitter.com/coderkc27" target="_blank">İhsan Coder</a>.
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    $('#themeSwitch').bind('change', function () {
+      if (this.checked) {
+        trans();
+        $('.label').text("Light Mode");
+        document.documentElement.setAttribute('data-theme', 'light')
+      } else {
+        trans();
+        $('.label').text("Dark Mode");
+        document.documentElement.setAttribute('data-theme', 'dark')
+      }
+    })
+    let trans = () => {
+      document.documentElement.classList.add('transition');
+      window.setTimeout(() => {
+        document.documentElement.classList.remove('transition');
+      }, 500)
+    }
+  </script>
+
+</body>
+
+</html>
